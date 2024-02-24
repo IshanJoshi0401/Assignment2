@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="Index.css" type="text/css" rel="stylesheet">
+    <link href="main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navigation">
+        <ul>
+            <li><a href="About_me.html" target="_blank" style="background-color: rgba(122, 122, 122, 0.487);">About Me</a></li>
+            <li><a href="My_Dreams.html" style="background-color: rgba(122, 122, 122, 0.487);">My Dreams</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <h1>This is an Example of Table</h1>
+        <table>
+            <tr class="tableRow">
+                <th>Department</th>
+                <th>Name</th>
+                <th>E-Mail</th>
+                <th>Years of Service</th>
+            </tr>
+            <tr>
+                <th rowspan="3" class="Department">Editorial</th>
+                <td>Jeol Murach</td>
+                <td>jeolmurach@gmail.com</td>
+                <td class="td">22</td>
+            </tr>
+            <tr class="tableData">
+                <td>Anne Boehm</td>
+                <td>anne@murach.com</td>
+                <td class="td">34</td>
+            </tr>
+            <tr>
+                <td>Zak Ruvalcaba</td>
+                <td>zak@modulemedia.com</td>
+                <td class="td">4</td>
+            </tr>
+            <tr class="tableData">
+                <th rowspan="2" class="Department">Marketing</th>
+                <td>Judy Taylor</td>
+                <td>judy@murach.com</td>
+                <td class="td">39</td>
+            </tr>
+            <tr>
+                <td>Cyndi Vasques</td>
+                <td>cyndi@murach.com</td>
+                <td class="td">10</td>
+            </tr>
+            <tr class="tableData">
+                <th rowspan="2" class="Department">Customer Service</th>
+                <td>Kelly Slivkoff</td>
+                <td>kelly@murach.com</td>
+                <td class="td">25</td>
+            </tr>
+            <tr>
+                <td>Juliette Baylon</td>
+                <td>juliette@murach.com</td>
+                <td class="td">1</td>
+            </tr>
+            <tr class="tableData">
+                <th colspan="3" class="td">Total Years of Service</th>
+                <td class="td"><b>105</b></td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1>This is an example of Forms</h1>
+        <form>
+            <fieldset>
+                <legend>Profile info</legend>
+                    <label>Enter your <strong>Name</strong></label>
+                    <input type="text" placeholder="Enter your name">
+
+                    <br>
+
+                    <label>Enter your <strong>Age</strong></label>
+                    <select>
+                        <option>10-18</option>
+                        <option>18-50</option>
+                        <option>50-80</option>
+                    </select>
+
+                    <br>
+
+                    <label>Enter your<strong> Email</strong> </label>
+                    <input type="email" placeholder="Enter your email">
+
+                    <br>
+
+                    <label>Enter your <strong>Password</strong></label>
+                    <input type="password" placeholder="Enter your password">
+
+                    <br><br>
+
+                    <label>What is your <strong>Gender</strong></label>
+                    <br>
+                    <input type="radio" name="gender"> Female<br>
+                    <input type="radio" name="gender"> Male
+
+                    <br><br>
+
+                    <label>Choose any one</label><br>
+                    <input type="checkbox"> I have <strong>Computer</strong><br>
+                    <input type="checkbox">I have <strong>Laptop</strong><br>
+                    <input type="checkbox">I have <strong>None</strong><br><br>
+
+                    <label>Description</label><br>
+                    <textarea rows="10" cols="80"></textarea>
+
+                    <br><br>
+
+                    <input type="submit" value="Save my info">
+                    <input type="reset" value="Reset the form">
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

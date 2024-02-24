@@ -1,0 +1,16 @@
+#navigation{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+#navigation ul li{
+    display: inline;
+    margin: 50px;
+    
+}
+#navigation ul li a{            
+    text-decoration: none;
+    padding: 20px; 
+    border-radius: 20px;     
+    color: rgb(240, 239, 239);                 
+}

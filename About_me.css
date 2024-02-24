@@ -1,0 +1,25 @@
+#header h1{
+    text-align: center;
+    font-size: 50px;        
+}
+#sidebar{
+    font-size: 15px;
+    float: left;
+    margin: 20px;
+    height: 400px;
+}
+#ProfessionalSummary h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+#skills{
+    float: left;
+    width: 200px; 
+    margin: 20px;
+}
+#education h3{
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+}
